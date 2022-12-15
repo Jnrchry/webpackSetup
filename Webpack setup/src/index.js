@@ -1,7 +1,7 @@
 import "./styles/main.scss";
-import laughing from "./assets/laughing.png";
+// import laughing from "./assets/laughing.png";
 
-const laughImg = document.getElementById("laughImg");
-laughImg.src = laughing;
+// const laughImg = document.getElementById("laughImg");
+// laughImg.src = laughing;
 
 console.log("123");
