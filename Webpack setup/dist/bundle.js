@@ -633,6 +633,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_laughing_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/laughing.png */ "./src/assets/laughing.png");
 
 
+
+// const laughImg = document.getElementById("laughImg");
+// laughImg.src = laughing;
+
 console.log("123");
 })();
 
