@@ -20,6 +20,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "Webpack Setup",
       filename: "index.html",
+      template: "./src/template.html",
     }),
   ],
 };
