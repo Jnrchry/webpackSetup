@@ -1,0 +1,21 @@
+<div *ngIf="successMsg; else errorMsg" class="bg-success">
+  user added successfully
+</div>
+<ng-template #errorMsg> User not added </ng-template>
+
+<ul>
+  <li *ngFor="let contact of contacts">
+    {{ contact.firstName }}
+    {{ contact.lastName }}
+    {{ contact.contactID }}
+  </li>
+</ul>
+
+<div [ngSwitch]="superPower">
+  <div *ngSwitchCase="'wonderWoman'">Display wonder woman super power</div>
+  <div *yngSwitchCase="'superMan'">Display superman super power</div>
+</div>
+
+<!-- ng style -->
+
+<router-outlet></router-outlet>
