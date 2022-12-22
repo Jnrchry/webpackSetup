@@ -26,13 +26,16 @@ module.exports = {
         },
       },
       {
-        test: /\.(png|jpg|jpeg|svg|ttf|woff|woff2)$/,
-        loader: "url-loader",
-        options: { limit: false },
-      },
-      {
         test: /\.(sc|sa|c)ss$/,
         use: ["style-loader", "css-loader", "sass-loader"],
+      },
+      {
+        test: /\.(png|jpeg|jpg|gif)$/i,
+        use: [
+          {
+            loader: "file-loader",
+          },
+        ],
       },
     ],
   },

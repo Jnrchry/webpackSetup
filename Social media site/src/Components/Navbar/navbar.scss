@@ -51,5 +51,41 @@
 
   .navbarRight {
     flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .navbarLink {
+      margin-right: 1.25rem;
+      font-size: 0.875rem;
+      cursor: pointer;
+    }
+
+    .navbarIcons {
+      display: flex;
+      font-size: 1.25rem;
+      gap: 10px;
+
+      .navbarIconItem {
+        display: flex;
+        margin-right: 15px;
+        position: relative;
+        cursor: pointer;
+      }
+
+      .navbarIconBadge {
+        width: 1rem;
+        height: 1rem;
+        background-color: red;
+        position: absolute;
+        font-size: 0.75rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: -5px;
+        right: -5px;
+      }
+    }
   }
 }

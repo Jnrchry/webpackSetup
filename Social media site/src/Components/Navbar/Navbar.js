@@ -1,6 +1,10 @@
 import React from "react";
 import "./navbar.scss";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
+import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
+import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
+import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
+// import User from "../../assets/person/user.jpg";
 
 const Navbar = () => {
   return (
@@ -28,8 +32,23 @@ const Navbar = () => {
         </div>
 
         <div className="navbarIcons">
-          <div className="navbarIconItem"></div>
+          <div className="navbarIconItem">
+            <PersonOutlinedIcon />
+            <span className="navbarIconBadge">2</span>
+          </div>
+
+          <div className="navbarIconItem">
+            <ChatBubbleOutlineOutlinedIcon />
+            <span className="navbarIconBadge">20 </span>
+          </div>
+
+          <div className="navbarIconItem">
+            <NotificationsNoneOutlinedIcon />
+            <span className="navbarIconBadge">8</span>
+          </div>
         </div>
+
+        {/* <img src={User} alt="" className="navbarImg" /> */}
       </div>
     </div>
   );
