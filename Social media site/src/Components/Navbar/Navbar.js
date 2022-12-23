@@ -4,7 +4,7 @@ import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
-// import User from "../../assets/person/user.jpg";
+import User from "../../assets/person/user.jpg";
 
 const Navbar = () => {
   return (
@@ -48,7 +48,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* <img src={User} alt="" className="navbarImg" /> */}
+        <img src={User} alt="" className="navbarImg" />
       </div>
     </div>
   );
