@@ -18,14 +18,14 @@ export const Users = [
     name: "Beverly Bruce",
     username: "beverly_24",
     email: "Sherwood@rosamond.me",
-    profilePicture: "../../assets/person/person3.jpg",
+    profilePicture: "assets/person/person3.jpg",
   },
   {
     id: 4,
     name: "Glenna Philip",
     username: "glenna_25",
     email: "Chaim_McDermott@dana.io",
-    profilePicture: "../../assets/person/person4.jpg",
+    profilePicture: "assets/person/person4.jpg",
   },
   // {
   //   id: 5,
