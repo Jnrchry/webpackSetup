@@ -4,14 +4,14 @@ export const Users = [
     name: "Janet Stephen",
     username: "janet_22",
     email: "amber@logan.tv",
-    profilePicture: "../../assets/person/person1.jpg",
+    profilePicture: "/assets/person/person1.jpg",
   },
   {
     id: 2,
     name: "Isabella Randy",
     username: "isabel_23",
     email: "isabella@randy.biz",
-    profilePicture: "../../assets/person/person2.jpg",
+    profilePicture: "assets/person/person2.jpg",
   },
   {
     id: 3,
