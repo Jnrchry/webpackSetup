@@ -1,10 +1,13 @@
 import React from "react";
 import "./feed.scss";
+import Stories from "../Stories/Stories";
 
 const Feed = () => {
   return (
     <div className="feed">
-      <h1>Feed</h1>
+      <div className="feedWrapper">
+        <Stories />
+      </div>
     </div>
   );
 };

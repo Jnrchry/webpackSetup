@@ -38,3 +38,48 @@
 }
 
 // Responsive
+@media screen and (max-width: 992px) {
+  .sidebar {
+    flex: 1;
+
+    .sidebarWrapper {
+      padding: 17px;
+
+      .sidebarButton {
+        display: none;
+      }
+
+      .sidebarHr {
+        display: none;
+      }
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: none;
+  }
+
+  ::-webkit-scrollbar-track {
+    display: none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: block;
+
+    .sidebarWrapper {
+      padding: 3px;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sidebar {
+    display: none;
+  }
+}
