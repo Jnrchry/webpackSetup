@@ -27,13 +27,13 @@ export const Users = [
     email: "Chaim_McDermott@dana.io",
     profilePicture: "assets/person/person4.jpg",
   },
-  // {
-  //   id: 5,
-  //   name: "Clementina Sean",
-  //   username: "Alexis",
-  //   email: "Rey.Padberg@karina.biz",
-  //   profilePicture: "/assets/person/person5.jpg",
-  // },
+  {
+    id: 5,
+    name: "Clementina Sean",
+    username: "Alexis",
+    email: "Rey.Padberg@karina.biz",
+    profilePicture: "/assets/person/person5.jpg",
+  },
 ];
 export const Usersonline = [
   {
