@@ -10,6 +10,8 @@ import EventIcon from "@mui/icons-material/Event";
 import SettingsBrightnessIcon from "@mui/icons-material/SettingsBrightness";
 import LogoutIcon from "@mui/icons-material/Logout";
 import Menulink from "../Menulink/Menulink";
+import Friends from "../Friends/Friends";
+import { Users } from "../../data";
 
 const Sidebar = () => {
   return (
@@ -27,6 +29,12 @@ const Sidebar = () => {
 
         <button className="sidebarButton">Show more</button>
         <hr className="sidebarHr" />
+
+        <ul className="sidebarFriendList">
+          {Users.map((u) => (
+            <Friends user={u} key={u.id} />
+          ))}
+        </ul>
       </div>
     </div>
   );
