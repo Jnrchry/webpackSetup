@@ -5,42 +5,28 @@ import ChatOutlinedIcon from "@mui/icons-material/ChatOutlined";
 import VideocamOutlinedIcon from "@mui/icons-material/VideocamOutlined";
 import GroupOutlinedIcon from "@mui/icons-material/GroupOutlined";
 import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import EventIcon from "@mui/icons-material/Event";
+import SettingsBrightnessIcon from "@mui/icons-material/SettingsBrightness";
+import LogoutIcon from "@mui/icons-material/Logout";
+import Menulink from "../Menulink/Menulink";
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
-        <ul className="sidebarList">
-          <li className="sidebarListItem">
-            <RssFeedOutlinedIcon className="sidebarIcon" />
-            <span className="sidebarListItemText">Feed</span>
-          </li>
+        <Menulink icon={<RssFeedOutlinedIcon />} text="Feed" />
+        <Menulink icon={<ChatOutlinedIcon />} text="Chat" />
+        <Menulink icon={<VideocamOutlinedIcon />} text="Videos" />
+        <Menulink icon={<GroupOutlinedIcon />} text="Friends" />
+        <Menulink icon={<BookmarkBorderIcon />} text="Bookmark" />
+        <Menulink icon={<ShoppingCartIcon />} text="Market place" />
+        <Menulink icon={<EventIcon />} text="Events" />
+        <Menulink icon={<SettingsBrightnessIcon />} text="Theme" />
+        <Menulink icon={<LogoutIcon />} text="Logout" />
 
-          <li className="sidebarListItem">
-            <ChatOutlinedIcon className="sidebarIcon" />
-            <span className="sidebarListItemText">Chat</span>
-          </li>
-
-          <li className="sidebarListItem">
-            <VideocamOutlinedIcon className="sidebarIcon" />
-            <span className="sidebarListItemText">Video</span>
-          </li>
-
-          <li className="sidebarListItem">
-            <GroupOutlinedIcon className="sidebarIcon" />
-            <span className="sidebarListItemText">Friends</span>
-          </li>
-
-          <li className="sidebarListItem">
-            <BookmarkBorderIcon className="sidebarIcon" />
-            <span className="sidebarListItemText">Bookmarks</span>
-          </li>
-
-          <li className="sidebarListItem">
-            <RssFeedOutlinedIcon className="sidebarIcon" />
-            <span className="sidebarListItemText">Feed</span>
-          </li>
-        </ul>
+        <button className="sidebarButton">Show more</button>
+        <hr className="sidebarHr" />
       </div>
     </div>
   );
