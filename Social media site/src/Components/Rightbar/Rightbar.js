@@ -1,10 +1,13 @@
 import React from "react";
 import "./rightbar.scss";
+import Rightbarhome from "../Rightbarhome/Rightbarhome";
 
 const Rightbar = () => {
   return (
     <div className="rightbar">
-      <h1>Rightbar</h1>
+      <div className="rightbarWrapper">
+        <Rightbarhome />
+      </div>
     </div>
   );
 };
